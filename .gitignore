@@ -1,0 +1,49 @@
+### Python template
+# Mac OS files
+.DS_Store
+._.DS_Store
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+
+logs/
+*.log
+.ropeproject/
+nohup.out
+libs/
+dist/
+tmp/
+
+#SSHFS temp files
+.*.py
+.*.sh
+.*.properties
+
+# csv and crc
+.*.crc
+*.csv
+
+# compressed from source code
+shared.zip
+
+# paid ads bid_rec download test
+paid_ads_mart/src/seller_center/download_tester.py
+
+stream-monitor/data/
+
+# sbt specific
+.cache
+.history
+dist/*
+target/
+
+# scala template
+*.class
