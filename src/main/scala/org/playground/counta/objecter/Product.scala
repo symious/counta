@@ -1,5 +1,7 @@
 package org.playground.counta.objecter
 
+import org.playground.counta.util.Utils
+
 class Product private(var state : Int) {
   def DoSomething() = {
     state += 1
@@ -14,10 +16,10 @@ object Product {
 
   def main(args: Array[String]): Unit = {
     import scala.collection.JavaConverters._
-    val m = System.getProperties.stringPropertyNames().asScala
-      .map(key => (key, System.getProperty(key))).toMap
 
-    println(m)
+    val mo = new Utils
+//    println(mo.getCallSite())
+    mo.printStackTrace()
 
   }
 }
