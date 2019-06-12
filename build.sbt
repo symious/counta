@@ -20,7 +20,9 @@ libraryDependencies ++= Seq(
   "com.amazon.redshift" % "jdbc41" % "1.2.1.1001" from "https://s3.amazonaws.com/redshift-downloads/drivers/RedshiftJDBC41-1.2.1.1001.jar",
   "org.apache.kafka" %% "kafka" % "1.1.0",
 
-  "com.typesafe.akka" %% "akka-actor" % "2.5.23"
+  "com.typesafe.akka" %% "akka-actor" % "2.5.23",
+
+  "com.typesafe.akka" %% "akka-testkit" % "2.5.23" % Test
 
 
 )
